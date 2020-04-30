@@ -9,7 +9,7 @@ See table below for more information
 |---------------------|-----------------------------------------|
 | [csv-split-compare] | Tool to split and compare CSV files     |
 
-[csv-split-compare]: csv-split-compare/Readme.md
+[csv-split-compare]: csv-split-compare
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
