@@ -102,3 +102,7 @@ dist
 
 # TernJS port file
 .tern-port
+
+Thumbs.db
+.vs
+package-lock.json
