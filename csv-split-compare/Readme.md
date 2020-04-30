@@ -13,15 +13,15 @@ Split a large CSV file into smaller files based on a given row limit value, then
 - [Lodash](https://lodash.com/)
 
 ## Installation
-``` bash
-npm install
+```
+$ cd csv-split-compare
+$ npm install
 ```
 ## Usage
 
-CLI
-
-```bash
-node split
+To split a large CSV file into smaller chunk files, run the command below:
+```
+$ node split
 
 #prompt
 Enter original data file name:  #example 'testCSV'
@@ -29,8 +29,9 @@ Enter chunk file output name:  #example 'testCSV-chunk'
 Enter chunk file record limit: #default '4000'
 ```
 
-```bash
-node compare
+To compare a chunk file against a provided file, run the command below:
+```
+$ node compare
 
 #prompt
 Enter file name for comparison:  #example 'testCSV-updated'
